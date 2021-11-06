@@ -10,4 +10,5 @@ urlpatterns = [
     path('snippet/<id>/', views.SnippetView.as_view(), name='snippet'),
     path('tag/', views.TagView.as_view(), name='tag'),
     path('tag/<id>/', views.TagView.as_view(), name='tag'),
+    path('tagdetails/<id>/', views.TagDetails.as_view(), name='tagdetails'),
 ]
